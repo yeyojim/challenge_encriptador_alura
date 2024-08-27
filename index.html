@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body class="body">
+
+
+    <div>
+
+        <img class="header_image" src="./image/Logo.png" alt="">
+    </div>
+
+
+
+    <div class="main">
+
+
+        <div class="container_izquierdo">
+
+            <div class="container_textarea">
+
+                <textarea id="IngresoInformacion" class="contenedor" placeholder="Ingrese el texto aqui" rows="10" cols="30"
+                    id="placeholder"></textarea>
+
+            </div>
+
+            <div class="minusculas">
+                <p>Solo letras minúsculas y sin acento</p>
+            </div>
+
+            <div class="container_buttons">
+                <button onclick="encriptar()" class="container__boton1" id="botonEncriptar">Encriptar</button>
+                <button  onclick="desencriptar()" class="container__boton2" id="botonDesencriptar">Desencriptar</button>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="container_derecho">
+
+            
+            <div class="mensaje_encriptado" id="mensaje_encriptado">
+                <img class="muneco" src="./image/Muñeco.png" id="muneco"/>
+                <h2 id="mensajeDeAlerta" class="mensaje_muneco1">Ningún mensaje fue encontrado</h2>
+
+                <p class="mensaje_muneco2" id="mensaje_muneco2">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <!-- <textarea placeholder="" class="contenedor_muneco" name="mensaje" id="mensaje" rows="5" cols="45"></textarea>
+            -->
+
+            <div>
+                <button onclick="copiar()" class="boton_copiar" id="boton_copiar">Copiar</button>
+            </div>
+
+            </div>
+            
+        </div>
+        
+    </div>
+
+
+
+
+</body>
+
+<script src="index.js"></script>
+
+</html>

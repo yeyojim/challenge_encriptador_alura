@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header_image {
+
+    margin-top: 0.5rem;
+}
+
+body {
+
+    background-color: antiquewhite;
+    color: black;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5%;
+    margin-top: 1rem;
+    margin-left: 240px;
+    margin-right: 28px; 
+    flex-wrap: wrap;     
+
+
+
+}
+
+.container_izquierdo {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contenedor {
+
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+
+
+    border: none;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    resize: none;
+
+}
+
+.contenedor::placeholder {
+
+    color: #0A3871;
+}
+
+.minusculas {
+
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.75rem;
+    color: #495057;
+    margin-top: 25rem;
+}
+
+.container_buttons {
+
+    display: flex;
+    gap: 1.5em;
+
+
+}
+
+.container__boton1 {
+    border-radius: 24px;
+    background: #0A3871;
+    padding: 24px;
+    width: 328px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 67px;
+    border: none;
+    margin-top: 1rem;
+    color: white;
+
+
+}
+
+
+.container__boton2 {
+    border-radius: 24px;
+    background: white;
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #0A3871;
+    border: black solid 2px;
+    margin-bottom: auto;
+
+}
+
+.container_derecho {
+
+    background-color: white;
+    border-radius: 32px;
+    height: 944px;
+    padding: 50px;
+    width: 344px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    align-items: center;
+    
+    
+    
+
+
+}
+
+.muneco {
+
+    width: 100%;
+
+
+}
+
+
+
+.mensaje_muneco1 {
+
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #343A40;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.mensaje_muneco2 {
+
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: #495057;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.boton_copiar{
+
+    border-radius: 24px;
+    background: white;
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #0A3871;
+    border: black solid 2px;
+    margin-bottom: auto;
+    margin-top: 5rem;
+    justify-content: center;
+    display: none;
+    
+    
+}
+
+@media (max-width: 800px) {
+
+    @media (max-width: 800px) {
+        .main {
+            flex-direction: column;
+            align-items: center;
+            margin-left: 0;
+            margin-right: 0;
+        }
+    
+        .container_izquierdo {
+            margin-bottom: 1rem;
+        }
+    
+        .muneco {
+            display: none;
+        }
+    
+        .container_derecho {
+            width: 100%;
+            padding: 20px;
+        }
+    }
+
+   
+
+    
+    
+
+
+    
+}
+
